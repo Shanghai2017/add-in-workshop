@@ -1,15 +1,13 @@
 These steps to generate the base code for the add-in should be completed in lesson 1. If not, then do them now.
 Also, node and git should already be installed per the prerequisites. 
 
-2.1. go here:
+2.1. Go to <https://dev.office.com/getting-started/addins>.
 
-<https://dev.office.com/getting-started/addins>
+2.2. Select "Excel"
 
-2.2. select "Excel"
+2.3. Scroll down and select "Other tools" (big, clickable image in the "Build | What development tool do you use?" box).
 
-2.3. scroll down and select "Other tools" (big, clickable image in the "Build | What development tool do you use?" box)
-
-2.4. while following the steps to generate the add-in code using Yo, use the following options:
+2.4. While following the steps to generate the add-in code using Yo, use the following options:
 
 ```
 ? Would you like to create a new subfolder for your project? Yes                                                
