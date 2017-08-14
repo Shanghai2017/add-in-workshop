@@ -126,56 +126,55 @@ Note: if you succeeded in creating the Grand Total button and handler, go to ste
 Let's add the "Grand Total" button so we can total up the prices. In
 index.html, add this next to the existing "Setup" button:
         
+```html
       <button id="grand-total" class="ms-welcome__action ms-Button ms-Button--hero ms-u-slideUpIn20">
           <span class="ms-Button-label">Grand Total</span>
           <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
       </button>
+```
 
 2.12. Add the handler code for the totaling button in app.js:
 
-```javascript
+```typescript
       $("#grand-total").click(grandTotal);
 ```
 
 2.13. And the grantTotal function:
 
-```javascript
-      function grandTotal() {
-        Excel.run(async (context) => {
-          var range = context.workbook.worksheets.getItem("Sample").getRange("E3:E5");
-          var rangeTot = context.workbook.worksheets.getItem("Sample").getRange("B7:E8");
-          var gTot = context.workbook.functions.sum(range);
+```typescript
 
-          range.load("values");
-          rangeTot.load("values");
-          gTot.load();
+  function grandTotal() {
+    Excel.run(async (context) => {
+      try {
+        var range = context.workbook.worksheets.getItem("Sample").getRange("E3:E5");
+        var rangeTot = context.workbook.worksheets.getItem("Sample").getRange("B7:E8");
+        var gTot = context.workbook.functions.sum(range);
 
-          context.sync()
-            .then(function () {
-              console.log("Loaded values, adding =sum()");
-              var vTot = rangeTot.values;
+        range.load("values");
+        rangeTot.load("values");
+        gTot.load();
 
-              console.log(gTot.value);
-              console.log(range);
-              vTot[0][3] = gTot.value;
-              vTot[0][0] = "Grand Total";
-              vTot[0][1] = "=sum(c3:c5)";
+        await context.sync()
+        console.log("Loaded values, adding =sum()");
+        var vTot = rangeTot.values;
 
-              rangeTot.values = vTot;
+        console.log(gTot.value);
+        console.log(range);
+        vTot[0][3] = gTot.value;
+        vTot[0][0] = "Grand Total";
+        vTot[0][1] = "=sum(c3:c5)";
 
-              return context.sync()
-                .then(function () {
-                  console.log("Added =sum() function");
-                });
+        rangeTot.values = vTot;
 
-            });
+        console.log("Added =sum() function");
+        return await context.sync()
 
-        })
-          .catch(function (error) {
-            OfficeHelpers.UI.notify(error);
-            OfficeHelpers.Utilities.log(error);
-          });
       }
+      catch (error) {
+        console.log("There was an error totalling the prices: " + error);
+      }
+    });
+  }
 ```
 
 2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the Grand Total row. This one should total up the Qty column but not use the workbook.functions.sum() method. Instead add the =sum() formula into the cell for later calculation.
