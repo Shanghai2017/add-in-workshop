@@ -6,7 +6,9 @@ Also, node and git should already be installed per the prerequisites.
 <https://dev.office.com/getting-started/addins>
 
 2.2. select "Excel"
+
 2.3. scroll down and select "Other tools" (big, clickable image in the "Build | What development tool do you use?" box)
+
 2.4. while following the steps to generate the add-in code using Yo, use the following options:
 
 ```
