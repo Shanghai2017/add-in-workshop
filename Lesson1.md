@@ -10,7 +10,7 @@
     * If you do not have the latest version of Excel, you can use Excel Online for this workshop.
 
 1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
- ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
+   ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
 
 1.3 Search for *Script Lab*.
 
