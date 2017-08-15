@@ -1,13 +1,10 @@
 # Lesson 1: Warm Up
 
+We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
 
 ## Setup: 1.1 - 1.5
 
 1.1 Open Excel (preferably the desktop version).
-
-* We will be using the Excel JavaScript API. For information about the API requirements click the link below:
-* [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md)
-    * If you do not have the latest version of Excel, you can use Excel Online for this workshop.
 
 1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
    ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
@@ -17,7 +14,6 @@
 1.4 Click **Add**.
 
 1.5 Click on the **Script Lab** tab and see the  **Code** and **Run** commands.
-
 
 ## Run the First Sample: 1.6 - 1.10
 
