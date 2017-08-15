@@ -1,5 +1,15 @@
-These steps to generate the base code for the add-in should be completed in lesson 1. If not, then do them now.
-Also, node and git should already be installed per the prerequisites. 
+# Lesson 2 - Basic
+
+## Overview
+These steps to generate the base code for the add-in should be completed in Lesson 1. If not, then do them now.
+
+### Prerequisites
+- Node.js - <https://nodejs.org/>
+- Git - <https://git-scm.com/downloads>
+
+## Steps
+
+### Create Project
 
 2.1. Go to <https://dev.office.com/getting-started/addins>.
 
@@ -20,6 +30,9 @@ For more information and resources on your next steps, we have created a resourc
 
 ? Would you like to open it now while we finish creating your project? No                                       
 ```
+
+### Open Project
+
 2.5 Change the command prompt location to the directory that you just created. Type the following and press enter.
 
 ```
@@ -31,6 +44,8 @@ cd lesson2_code
 ```
 code .
 ```
+
+### Change Code
 
 2.5. In index.html, change the "Run" button text in this section to "Setup". It
 should be on about line 53.
@@ -119,39 +134,46 @@ should be on about line 53.
       }
 ```
 
-2.9. Now that you have the setup code for lesson 2, we can add code to use Excel
+### Add Code
+
+Now that you have the setup code for lesson 2, we can add code to use Excel
 functions. 
 
-Now add a new button and handler to create a Grand Total under the Total Price column. For this, use the sum formula.
+Add a new button and handler to create a *Grand Total* under the *Total Price* column. For this, use the sum formula.
 
-2.10 Add another button with a label of "Grand Total".
+2.09 Add another button with a label of *Grand Total*.
 
-2.11 Add code to total the Total Price column and put the result in E7 (below the last entry). Also add the label "Grand Total" in B7.
+2.10 Add code to total the *Total Price* column and put the result in *E7* (below the last entry). Also, add the label *Grand Total* in *B7*.
 
-This should be the result Grand Total Table
-Hints:
+This should be the result *Grand Total* Table
+
+**Hints:**
 
 - Use Excel Worksheets Functions
 - Remember that the values array will index from 0, even though the Excel addresses are 1 based.
-- Use the workbook.functions.sum() method.
-- Notice that the sum() method returns programmatically the value of the sum of the range, which we add to a cell. However, typically, you'd add a formula like this: =sum(<range>) into that cell instead of the resulting value.
+- Use the `workbook.functions.sum()` method.
+- Notice that the `sum()` method returns programmatically the value of the sum of the range, which we add to a cell. However, typically, you'd add a formula like this: `=sum(<range>)` into that cell instead of the resulting value.
 
-Note: if you succeeded in creating the Grand Total button and handler, go to step 2.7, otherwise continue.
-Let's add the "Grand Total" button so we can total up the prices. In
-index.html, add this next to the existing "Setup" button:
-        
+---
+Note: if you succeeded in creating the *Grand Total* button and handler, go to step **2.7**, otherwise continue.
+---
+
+2.11 Let's add the "Grand Total" button so we can total up the prices. In *index.html*, add the following code next to the existing *Setup* button:
+
+```html
       <button id="grand-total" class="ms-welcome__action ms-Button ms-Button--hero ms-u-slideUpIn20">
           <span class="ms-Button-label">Grand Total</span>
           <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
       </button>
+```
 
-2.12. Add the handler code for the totaling button in app.js:
+2.12. Add the handler code for the totaling button in *app.js*:
 
 ```javascript
       $("#grand-total").click(grandTotal);
 ```
 
-2.13. And the grandTotal function:
+2.13. And the `grandTotal` function:
 
 ```javascript
       function grandTotal() {
@@ -192,9 +214,8 @@ index.html, add this next to the existing "Setup" button:
       }
 ```
 
-2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the Grand Total row. This one should total up the Qty column but not use the workbook.functions.sum() method. Instead add the =sum() formula into the cell for later calculation.
+2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the *Grand Total* row. This value should total up the *Qty* column but not use the `workbook.functions.sum()` method. Instead, add the `=sum()` formula into the cell for later calculation.
 
-This should be the result Grand Total Table
+This should be the result *Grand Total* table.
 
-2.15. After this is successful, add another row with Tax (say B6:E6) and include that into the Grand Total amount.      
-
+2.15. After this is successful, add another row with *Tax* (say *B6:E6*) and include that into the *Grand Total* amount.
