@@ -1,13 +1,13 @@
 These steps to generate the base code for the add-in should be completed in lesson 1. If not, then do them now.
 Also, node and git should already be installed per the prerequisites. 
 
-2.1. go here:
+2.1. Go to <https://dev.office.com/getting-started/addins>.
 
-<https://dev.office.com/getting-started/addins>
+2.2. Select "Excel"
 
-2.2. select "Excel"
-2.3. scroll down and select "Other tools" (big, clickable image in the "Build | What development tool do you use?" box)
-2.4. while following the steps to generate the add-in code using Yo, use the following options:
+2.3. Scroll down and select "Other tools" (big, clickable image in the "Build | What development tool do you use?" box).
+
+2.4. While following the steps to generate the add-in code using Yo, use the following options:
 
 ```
 ? Would you like to create a new subfolder for your project? Yes                                                
@@ -19,6 +19,17 @@ Also, node and git should already be installed per the prerequisites.
 For more information and resources on your next steps, we have created a resource.html file in your project.    
 
 ? Would you like to open it now while we finish creating your project? No                                       
+```
+2.5 Change the command prompt location to the directory that you just created. Type the following and press enter.
+
+```
+cd lesson2_code
+```
+
+2.6 Open Visual Studio Code in the current directory. Type the following and press enter.
+
+```
+code .
 ```
 
 2.5. In index.html, change the "Run" button text in this section to "Setup". It
@@ -140,7 +151,7 @@ index.html, add this next to the existing "Setup" button:
       $("#grand-total").click(grandTotal);
 ```
 
-2.13. And the grantTotal function:
+2.13. And the grandTotal function:
 
 ```javascript
       function grandTotal() {
