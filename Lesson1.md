@@ -29,13 +29,13 @@
 1.9 Select a matrix of several cells (see photo below) and click the **Run Code** button.
 * For example, if four cells are selected
 
-    ![alt text](Image1_lesson1.png)
+    ![alt text](Lesson_01_01.png "Selected cells")
 
 Observations:
 
 * The cells selected should be highlighted in yellow.
 
-    ![alt text](Image2_lesson1.PNG)
+    ![alt text](Lesson_01_02.PNG "Highlighted cells")
 
 * Review the code in the Code pane.
 
@@ -74,7 +74,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 For example, if four cells are selected, the output will look like this;
 
-![alt text](Image3_lesson1.png)
+![alt text](lesson_01_03.png "Highlighted cells with values")
 
 Hints:
 
