@@ -9,9 +9,9 @@
 * [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md)
     * If you do not have the latest version of Excel, you can use Excel Online for this workshop.
 
-1.2 Go to Insert > My Add-ins > the Store icon (red shopping bag).
+1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**. ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
 
-1.3 Search for "Script Lab".
+1.3 Search for *Script Lab*.
 
 1.4 Click **Add**.
 
@@ -72,7 +72,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 1.10 Using the Script Lab code editor, modify the code to populate the cells with increasing numbers starting at 1.
 
-For example, if four cells are selected, the output will look like this;
+For example, if you select four cells, the output will look like this:
 
 ![alt text](Lesson_01_03.png "Highlighted cells with values")
 
@@ -142,11 +142,11 @@ function populateRange(context: Excel.RequestContext, range: Excel.Range) {
 
 1.11 Once satisfied, run it to show the populated cells.
 
-1.12 Now you have a modified version of the Basic API call (JavaScript) sample code in MySnippets. Navigate to see that it's there.
-* To get My Snippets, click on the hamburger menu in the top left corner of the code panel. Then click on My Snippets at the top. Then you should see your snippet under the **My snippets on this computer** section.
-* This modified code in MySnippets will only remain in the add-in memory until you clear your browser cache.
+1.12 Now you have a modified version of the *Basic API call (JavaScript)* sample code in **My Snippets**. Navigate to see that it's there.
+* To get **My Snippets**, click on the hamburger menu in the top left corner of the **Code** panel. Then click **My Snippets** at the top. You should see your snippet in the **My snippets on this computer** section.
+* This modified code in **My Snippets** will only remain in the add-in memory until you clear your browser cache.
 
 1.13 Save your snippets on GitHub
-* If you want to save your snippet, you can do that by first signing in with GitHub on the My Snippet page.
-* Then click on the snippet you want to save. This will take you to the text editor portion of the code panel. 
-* Hover over the share button and choose either **Public gist** or **Private gist**
+* If you want to save your snippet, you can do that by first signing in with GitHub on the **My Snippets** page.
+* Click on the snippet that you want to save. This will take you to the text editor portion of the **Code** panel.
+* Hover over the **Share** button and choose either **Public gist** or **Private gist**.
