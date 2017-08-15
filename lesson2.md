@@ -151,7 +151,7 @@ index.html, add this next to the existing "Setup" button:
       $("#grand-total").click(grandTotal);
 ```
 
-2.13. And the grantTotal function:
+2.13. And the grandTotal function:
 
 ```javascript
       function grandTotal() {
