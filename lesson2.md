@@ -1,7 +1,7 @@
 # Lesson 2 - Basic
 
 ## Overview
-These steps to generate the base code for the add-in should be completed in Lesson 1. If not, then do them now.
+These steps to generate the base code for the add-in should be completed in [Lesson 1](./Lesson1.md). If not, then do them now.
 
 ### Prerequisites
 - Node.js - <https://nodejs.org/>
