@@ -20,6 +20,17 @@ For more information and resources on your next steps, we have created a resourc
 
 ? Would you like to open it now while we finish creating your project? No                                       
 ```
+2.5 Change the command prompt location to the directory that you just created. Type the following and press enter.
+
+```
+cd lesson2_code
+```
+
+2.6 Open Visual Studio Code in the current directory. Type the following and press enter.
+
+```
+code .
+```
 
 2.5. In index.html, change the "Run" button text in this section to "Setup". It
 should be on about line 53.
