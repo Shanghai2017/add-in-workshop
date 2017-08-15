@@ -4,7 +4,7 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 ## Setup: 1.1 - 1.5
 
-1.1 Open Excel (preferably the desktop version).
+1.1 Open the desktop version of Excel.
 
 1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
    ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
@@ -19,14 +19,14 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 1.6 In the **Code** pane, select **Samples**.
 
-1.7 Select **Basic API** call (JavaScript).
+1.7 Select **Basic API call (JavaScript)**.
 
-1.8 In the **Run** pane, select the same.
+1.8 In the **Run** pane, select **Basic API call (JavaScript)**.
 
-1.9 Select a matrix of several cells (see photo below) and click the **Run Code** button.
+1.9 Select a matrix of several cells (see screenshot below) and click the **Run Code** button.
 * For example, if four cells are selected  
     ![alt text](Lesson_01_01.png "Selected cells")  
-Observations:  
+    Observations:  
 * The cells selected should be highlighted in yellow.  
     ![alt text](Lesson_01_02.PNG "Highlighted cells")  
 * Review the code in the Code pane.  
