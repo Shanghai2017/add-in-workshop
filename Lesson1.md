@@ -1,7 +1,7 @@
 # Lesson 1: Warm Up
 
 
-## Setup
+## Setup: 1.1 - 1.5
 
 1.1 Open Excel (preferably the desktop version).
 
@@ -18,7 +18,7 @@
 1.5 Click on the **Script Lab** tab and see the  **Code** and **Run** commands.
 
 
-## Running the First Sample
+## Run the First Sample: 1.6 - 1.10
 
 1.6 In the **Code** pane, select **Samples**.
 
@@ -76,17 +76,19 @@ For example, if four cells are selected, the output will look like this;
 
 ![alt text](Lesson_01_03.png "Highlighted cells with values")
 
-Hints:
+**Hints:**
 
-* Use the ```.values``` property of the Range object.
+* Use the `.values` property of the Range object.
 * Remember to load "values" first and then sync.
-* Fewer calls to ```context.sync``` mean fewer calls to the Office application.
+* Fewer calls to `context.sync` mean fewer calls to the Office application.
 * If you use another function to populate, remember to pass in the context as well as the range.
 * If you get stuck, look at the other sample snippets for ideas.
-* For more information about Range objects click on the link below:
+* For more information about Range objects click on the link below:  
     * [Range Object - JavaScript API for Excel](https://github.com/OfficeDev/office-js-docs/blob/master/reference/excel/range.md)
 
 **Note:** If you've already done this lesson on your own, congratulations! You can skip to step 1.12. Otherwise, keep following the steps.
+
+### Add Code to Populate Values: 1.10.1 - 1.10.4
 
 1.10.1 Change the following line: 
 
@@ -136,6 +138,8 @@ function populateRange(context: Excel.RequestContext, range: Excel.Range) {
 
 1.10.4 Now run and test the code making sure that it works and shows as the image in 1.10.
 
+## Run, Test, and Save: 1.11 - 1.13
+
 1.11 Once satisfied, run it to show the populated cells.
 
 1.12 Now you have a modified version of the Basic API call (JavaScript) sample code in MySnippets. Navigate to see that it's there.
@@ -146,5 +150,3 @@ function populateRange(context: Excel.RequestContext, range: Excel.Range) {
 * If you want to save your snippet, you can do that by first signing in with GitHub on the My Snippet page.
 * Then click on the snippet you want to save. This will take you to the text editor portion of the code panel. 
 * Hover over the share button and choose either **Public gist** or **Private gist**
-
-
