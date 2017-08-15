@@ -9,7 +9,8 @@
 * [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md)
     * If you do not have the latest version of Excel, you can use Excel Online for this workshop.
 
-1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**. ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
+1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
+![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
 
 1.3 Search for *Script Lab*.
 
@@ -27,19 +28,13 @@
 1.8 In the **Run** pane, select the same.
 
 1.9 Select a matrix of several cells (see photo below) and click the **Run Code** button.
-* For example, if four cells are selected
-
-    ![alt text](Lesson_01_01.png "Selected cells")
-
-Observations:
-
-* The cells selected should be highlighted in yellow.
-
-    ![alt text](Lesson_01_02.PNG "Highlighted cells")
-
-* Review the code in the Code pane.
-
-Notice the ```Excel.run()``` invocation
+* For example, if four cells are selected  
+    ![alt text](Lesson_01_01.png "Selected cells")  
+Observations:  
+* The cells selected should be highlighted in yellow.  
+    ![alt text](Lesson_01_02.PNG "Highlighted cells")  
+* Review the code in the Code pane.  
+Notice the ```Excel.run()``` invocation  
 ```javascript
 
 $("#run").click(run);
@@ -59,9 +54,8 @@ function run() {
             OfficeHelpers.Utilities.log(error);
         });
 }
-```
-Note the ```context.sync()``` and ```.then``` pattern. Asynchronous code must always
-return a Promise.
+```  
+Note the ```context.sync()``` and ```.then``` pattern. Asynchronous code must always return a Promise.  
 
 Notice the output from the ```console.log()``` call on line 10 on the Firebug
 Console tab.
