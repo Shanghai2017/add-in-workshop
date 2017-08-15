@@ -105,6 +105,19 @@ should be on about line 53.
     });
 ```
 
+2.8a Challenge: Add the Office js Helpers and use these calls in the catch block for grandTotal() in place of console.log() to log the error and present it to the user:
+
+        OfficeHelpers.UI.notify(error);
+        OfficeHelpers.Utilities.log(error);
+
+Hint: you'll find the following resources helpful:
+
+<https://github.com/OfficeDev/office-js-helpers>
+
+<https://github.com/Microsoft/TypeScript>
+
+<https://www.typescriptlang.org/docs/handbook/react-&-webpack.html>
+
 2.9. Now that you have the setup code for lesson 2, we can add code to use Excel
 functions. 
 
@@ -176,6 +189,19 @@ index.html, add this next to the existing "Setup" button:
     });
   }
 ```
+2.13a. Challenge: Add the Office js Helpers and use these calls in the catch block for grandTotal() in place of console.log() to log the error and present it to the user:
+
+        OfficeHelpers.UI.notify(error);
+        OfficeHelpers.Utilities.log(error);
+
+Hint: you'll find the following resources helpful:
+
+<https://github.com/OfficeDev/office-js-helpers>
+
+<https://github.com/Microsoft/TypeScript>
+
+<https://www.typescriptlang.org/docs/handbook/react-&-webpack.html>
+
 
 2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the Grand Total row. This one should total up the Qty column but not use the workbook.functions.sum() method. Instead add the =sum() formula into the cell for later calculation.
 
