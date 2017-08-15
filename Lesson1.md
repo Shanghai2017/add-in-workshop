@@ -14,7 +14,7 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 1.4 Click **Add**.
 
-1.5 Click on the **Script Lab** tab.  
+1.5 Click on the **Script Lab** ribbon.  
     ![alt text](Lesson_01_Script_Lab_ribbon.png "Script Lab ribbon")
 
 ## Run the First Sample: 1.6 - 1.10
