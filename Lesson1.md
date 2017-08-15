@@ -74,7 +74,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 For example, if four cells are selected, the output will look like this;
 
-![alt text](lesson_01_03.png "Highlighted cells with values")
+![alt text](Lesson_01_03.png "Highlighted cells with values")
 
 Hints:
 
