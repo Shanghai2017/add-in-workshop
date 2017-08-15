@@ -189,7 +189,7 @@ index.html, add this next to the existing "Setup" button:
     });
   }
 ```
-2.13a. Challenge: Add the Office js Helpers and use these calls in the catch block for grandTotal() in place of console.log() to log the error and present it to the user:
+2.13a. Challenge: If you skipped 2.8a, consider adding the Office js Helpers and use these calls in the catch block for grandTotal() in place of console.log() to log the error and present it to the user:
 
         OfficeHelpers.UI.notify(error);
         OfficeHelpers.Utilities.log(error);
@@ -201,6 +201,10 @@ Hint: you'll find the following resources helpful:
 <https://github.com/Microsoft/TypeScript>
 
 <https://www.typescriptlang.org/docs/handbook/react-&-webpack.html>
+
+Also, here's an example of an add-in project for Word that uses Typescript with Officejs Helpers:
+
+<https://github.com/OfficeDev/Word-Add-in-Markdown-Editor>
 
 
 2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the Grand Total row. This one should total up the Qty column but not use the workbook.functions.sum() method. Instead add the =sum() formula into the cell for later calculation.
