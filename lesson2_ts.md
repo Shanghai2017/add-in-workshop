@@ -189,7 +189,7 @@ index.html, add this next to the existing "Setup" button:
     });
   }
 ```
-2.13a. Challenge: If you skipped 2.8a, consider adding the Office js Helpers and use these calls in the catch block for grandTotal() in place of console.log() to log the error and present it to the user:
+2.13a. Challenge: If you skipped 2.8a, consider it now. Add the Office js Helpers and use these calls in the catch block for grandTotal() in place of console.log() to log the error and present it to the user:
 
         OfficeHelpers.UI.notify(error);
         OfficeHelpers.Utilities.log(error);
