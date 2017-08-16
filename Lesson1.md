@@ -2,6 +2,12 @@
 
 We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
 
+# Contents
+* [Setup: 1.1 - 1.5](#setup-11---15)
+* [Run the First Sample: 1.6 - 1.10](#run-the-first-sample-16---110)
+* [Add Code to Populate Values: 1.10.1 - 1.10.4](#add-code-to-populate-values-1101---1104)
+* [Run, Test, and Save: 1.11 - 1.13](#run-test-and-save-111---113)
+
 ## Setup: 1.1 - 1.5
 
 1.1 Open the desktop version of Excel.
