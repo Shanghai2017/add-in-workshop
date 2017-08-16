@@ -1,19 +1,21 @@
 # Module 2: Call Excel Functions
-
-## Overview
 These steps to generate the base code for the add-in should be completed in [Lesson 1](./Lesson1.md). If not, then do them now.
 
 This page contains instructions for the Basic track in the second module in the workshop. The steps for the Advanced track are in [Module2_advanced.md](Module2_advanced.md).
 
 The previous module is [Module 1](Module1.md).
 
-### Prerequisites
+# Contents
+* [Prerequisites](#Prerequisites)
+* [Create Project](#Create-Project)
+* [Modify Code](#Modify-Code)
+* [Add Code](#Add-Code)
+
+## Prerequisites
 - Node.js - <https://nodejs.org/>
 - Git - <https://git-scm.com/downloads>
 
-## Steps
-
-### Create Project
+## Create Project
 
 * 2.1. Go to <https://dev.office.com/getting-started/addins>.
 
@@ -133,7 +135,7 @@ should be on about line 53.
               }
         ```
 
-### Add Code
+## Add Code
 Now that you have the setup code for lesson 2, you can add code to use Excel functions. 
 
 Add a new button and handler to create a *Grand Total* under the *Total Price* column. For this, use the sum formula.
