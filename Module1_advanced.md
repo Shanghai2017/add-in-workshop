@@ -87,7 +87,7 @@ You can now edit the *Basic API call* sample code and it will save it to your sn
 
 **Note:** If you've already done this module on your own, congratulations! You can skip to step [1.12](#1.12). Otherwise, keep following the next steps.
 
-### Add Code to Populate Values
+### Add Code
 
 - 1.10.1 Change the following line: 
     ```javascript
