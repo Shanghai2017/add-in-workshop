@@ -18,7 +18,8 @@ The previous module is [Module 1](Module1.md).
 * 2.1. Go to <https://dev.office.com/getting-started/addins>.
 
 * 2.2. In the section named *Choose the Office product you will build your add-in for* select "Excel".  
-    ![alt text](https://devofficecdn.azureedge.net/media/Default/GettingStarted/devOffice_getting_started_excel_56x56.png "Excel icon")
+    ![alt text](https://devofficecdn.azureedge.net/media/Default/GettingStarted/devOffice_getting_started_excel_56x56.png "Excel icon")  
+    Excel
 
 * 2.3. Scroll down to the section named *Build* and select **Other tools**.  
   ![alt text](https://devofficecdn.azureedge.net/media/Default/GettingStarted/devOffice_getting_started_other_tools_icon.png "Other tools button")
