@@ -1,4 +1,4 @@
-# Lesson 1: Warm Up
+# Module 1: Warm Up
 
 We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
 
@@ -13,15 +13,15 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 1.1 Open the desktop version of Excel.
 
 1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
-    ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
+    ![alt text](Module_1_Office_Add-ins_button.png "Office Add-ins button")
 
 1.3 Search for *Script Lab*.  
-    ![alt text](Lesson_01_Script_Lab_in_store.png "Script Lab add-in in the Office Add-ins Store")
+    ![alt text](Module_1_Script_Lab_in_store.png "Script Lab add-in in the Office Add-ins Store")
 
 1.4 Click **Add**.
 
 1.5 Click on the **Script Lab** ribbon.  
-    ![alt text](Lesson_01_Script_Lab_ribbon.png "Script Lab ribbon")
+    ![alt text](Module_1_Script_Lab_ribbon.png "Script Lab ribbon")
 
 ## Run the First Sample: 1.6 - 1.10
 
@@ -33,10 +33,10 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 1.9 Select a matrix of several cells (see screenshot below) and click the **Run Code** button.
 * For example, if four cells are selected  
-    ![alt text](Lesson_01_01.png "Selected cells")  
+    ![alt text](Module_1_cells_selected.png "Selected cells")  
     Observations:  
 * The cells selected should be highlighted in yellow.  
-    ![alt text](Lesson_01_02.PNG "Highlighted cells")  
+    ![alt text](Module_1_cells_highlighted.PNG "Highlighted cells")  
 * Review the code in the Code pane.  
 Notice the ```Excel.run()``` invocation  
 ```javascript
@@ -72,7 +72,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 For example, if you select four cells, the output will look like this:
 
-![alt text](Lesson_01_03.png "Highlighted cells with values")
+![alt text](Module_1_cells_highlighted_with_data.png "Highlighted cells with values")
 
 **Hints:**
 
@@ -84,7 +84,7 @@ For example, if you select four cells, the output will look like this:
 * For more information about Range objects click on the link below:  
     * [Range Object - JavaScript API for Excel](https://github.com/OfficeDev/office-js-docs/blob/master/reference/excel/range.md)
 
-**Note:** If you've already done this lesson on your own, congratulations! You can skip to step 1.12. Otherwise, keep following the steps.
+**Note:** If you've already done this module on your own, congratulations! You can skip to step 1.12. Otherwise, keep following the steps.
 
 ### Add Code to Populate Values: 1.10.1 - 1.10.4
 
