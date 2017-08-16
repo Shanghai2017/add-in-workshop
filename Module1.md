@@ -10,17 +10,17 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 ## Setup: 1.1 - 1.5
 
-- 1.1 Open the desktop version of Excel.
+1.1 Open the desktop version of Excel.
 
-1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.
-![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
+1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
+    ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
 
-- 1.3 Search for *Script Lab*.  
+1.3 Search for *Script Lab*.  
     ![alt text](Lesson_01_Script_Lab_in_store.png "Script Lab add-in in the Office Add-ins Store")
 
-- 1.4 Click **Add**.
+1.4 Click **Add**.
 
-- 1.5 Click on the **Script Lab** ribbon.  
+1.5 Click on the **Script Lab** ribbon.  
     ![alt text](Lesson_01_Script_Lab_ribbon.png "Script Lab ribbon")
 
 ## Run the First Sample: 1.6 - 1.10
