@@ -1,4 +1,4 @@
-# Module 1: Warm Up
+# Module 1 Advanced: Warm Up
 
 We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
 
