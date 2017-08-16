@@ -3,12 +3,12 @@
 We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
 
 # Contents
-* [Setup: 1.1 - 1.5](#setup-11---15)
-* [Run the First Sample: 1.6 - 1.10](#run-the-first-sample-16---110)
-* [Add Code: 1.10.1 - 1.10.4](#add-code-1101---1104)
-* [Run, Test, and Save: 1.11 - 1.13](#run-test-and-save-111---113)
+* [Setup](#setup): 1.1 - 1.5
+* [Run the First Sample](#run-the-first-sample): 1.6 - 1.10
+* [Add Code](#add-code): 1.10.1 - 1.10.4
+* [Run, Test, and Save](#run-test-and-save): 1.11 - 1.13
 
-## Setup: 1.1 - 1.5
+## Setup
 Configure the *Script Lab* add-in in Excel.
 
 - 1.1 Open the desktop version of Excel.
@@ -24,7 +24,7 @@ Configure the *Script Lab* add-in in Excel.
 - 1.5 Click on the **Script Lab** ribbon.  
     ![alt text](Module_1_Script_Lab_ribbon.png "Script Lab ribbon")
 
-## Run the First Sample: 1.6 - 1.10
+## Run the First Sample
 Use sample code to highlight a range of cells.
 
 - 1.6 In the **Code** pane, select **Samples**.
@@ -85,7 +85,7 @@ You can now edit the *Basic API call (JavaScript)* sample code and it will save 
 
 **Note:** If you've already done this module on your own, congratulations! You can skip to step [1.12](#1.12). Otherwise, keep following the next steps.
 
-### Add Code: 1.10.1 - 1.10.4
+### Add Code
 In this section you will add code to the sample to populate the highlighted range with data.
 - 1.10.1 Change the following line: 
     ```javascript
@@ -128,7 +128,7 @@ In this section you will add code to the sample to populate the highlighted rang
 
 - 1.10.4 Now run and test the code making sure that it works and shows as the image in [1.10](#1.10).
 
-## Run, Test, and Save: 1.11 - 1.13
+## Run, Test, and Save
 Run the modified code, ensure it works, and save your code.
 
 - 1.11 Once satisfied, run it to show the populated cells.
