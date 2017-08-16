@@ -35,8 +35,6 @@ The previous module is [Module 1](Module1.md).
         ? Would you like to open it now while we finish creating your project? No                                       
         ```
 
-### Open Project
-
 * 2.5 Change the command prompt location to the directory that you just created. Type the following and press enter.
 
         ```
