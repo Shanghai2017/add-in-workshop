@@ -64,6 +64,7 @@ should be on about line 53.
         ```
 
 * 2.6. In app.js, find this line and change all occurences on the line from "run" to "setup":
+
         ```javascript
               $('#run').click(run);
         ```
@@ -75,6 +76,7 @@ should be on about line 53.
         ```
 
 * 2.7. Also find this line and change the name of the function to "setup":
+
         ```javascript
               function run() {
         ```        
@@ -86,6 +88,7 @@ should be on about line 53.
         ```
 
 * 2.8. Now replace the following stock comment in function setup() from: 
+
         ```javascript
               /**
                * Insert your Excel code here
@@ -144,20 +147,20 @@ Add a new button and handler to create a *Grand Total* under the *Total Price* c
 
 * 2.10 Add code to total the *Total Price* column and put the result in *E7* (below the last entry). Also, add the label *Grand Total* in *B7*.
 
-        This should be the result *Grand Total* Table
+This should be the result *Grand Total* Table
 
-        **Hints:**
-
+**Hints:**
         - Use Excel Worksheets Functions
         - Remember that the values array will index from 0, even though the Excel addresses are 1 based.
         - Use the `workbook.functions.sum()` method.
         - Notice that the `sum()` method returns programmatically the value of the sum of the range, which we add to a cell. However, typically, you'd add a formula like this: `=sum(<range>)` into that cell instead of the resulting value.
 
-        ---
-        Note: if you succeeded in creating the *Grand Total* button and handler, go to step **2.7**, otherwise continue.
-        ---
+---
+Note: if you succeeded in creating the *Grand Total* button and handler, go to step **2.7**, otherwise continue.
+---
 
 * 2.11 Let's add the "Grand Total" button so we can total up the prices. In *index.html*, add the following code next to the existing *Setup* button:
+
         ```html
               <button id="grand-total" class="ms-welcome__action ms-Button ms-Button--hero ms-u-slideUpIn20">
                   <span class="ms-Button-label">Grand Total</span>
@@ -166,11 +169,13 @@ Add a new button and handler to create a *Grand Total* under the *Total Price* c
         ```
 
 * 2.12. Add the handler code for the totaling button in *app.js*:
+
         ```javascript
               $("#grand-total").click(grandTotal);
         ```
 
 * 2.13. And the `grandTotal` function:
+
         ```javascript
               function grandTotal() {
                 Excel.run(async (context) => {
@@ -210,8 +215,7 @@ Add a new button and handler to create a *Grand Total* under the *Total Price* c
               }
         ```
 
-* 2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the *Grand Total* row. This value should total up the *Qty* column but not use the `workbook.functions.sum()` method. Instead, add the `=sum()` formula into the cell for later calculation.
-
+* 2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the *Grand Total* row. This value should total up the *Qty* column but not use the `workbook.functions.sum()` method. Instead, add the `=sum()` formula into the cell for later calculation.  
     This should be the result *Grand Total* table.
 
 * 2.15. After this is successful, add another row with *Tax* (say *B6:E6*) and include that into the *Grand Total* amount.
