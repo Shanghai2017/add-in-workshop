@@ -25,7 +25,7 @@ The previous module is [Module 1](Module1.md).
   ![alt text](https://devofficecdn.azureedge.net/media/Default/GettingStarted/devOffice_getting_started_other_tools_icon.png "Other tools button")
 
 * 2.4. While following the steps to generate the add-in code using Yo, use the following options:  
-    ```
+    ```batchfile
     ? Would you like to create a new subfolder for your project? Yes  
     ? What do you want to name your add-in? lesson2_code  
     ? Which Office client application would you like to support? Excel  
