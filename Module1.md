@@ -5,7 +5,7 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 # Contents
 * [Setup: 1.1 - 1.5](#setup-11---15)
 * [Run the First Sample: 1.6 - 1.10](#run-the-first-sample-16---110)
-* [Add Code to Populate Values: 1.10.1 - 1.10.4](#add-code-to-populate-values-1101---1104)
+* [Add Code: 1.10.1 - 1.10.4](#add-code-1101---1104)
 * [Run, Test, and Save: 1.11 - 1.13](#run-test-and-save-111---113)
 
 ## Setup: 1.1 - 1.5
@@ -83,8 +83,8 @@ You can now edit the *Basic API call (JavaScript)* sample code and it will save 
 
 **Note:** If you've already done this module on your own, congratulations! You can skip to step [1.12](#1.12). Otherwise, keep following the next steps.
 
-### Add Code to Populate Values: 1.10.1 - 1.10.4
-
+### Add Code: 1.10.1 - 1.10.4
+In this section you will add code to the example to populate the highlighted range with data.
 - 1.10.1 Change the following line: 
     ```javascript
     range.load("address");
