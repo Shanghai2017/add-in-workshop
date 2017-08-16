@@ -1,6 +1,4 @@
 # Module 2: Call Excel Functions
-These steps to generate the base code for the add-in should be completed in [Lesson 1](./Lesson1.md). If not, then do them now.
-
 This page contains instructions for the Basic track in the second module in the workshop. The steps for the Advanced track are in [Module2_advanced.md](Module2_advanced.md).
 
 The previous module is [Module 1](Module1.md).
