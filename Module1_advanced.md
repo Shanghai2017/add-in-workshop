@@ -96,25 +96,25 @@ You can now edit the *Basic API call* sample code and it will save it to your sn
 In this section you will add code to the sample to populate the highlighted range with data.
 
 - 1.10.1 Change the following line: 
-    ```javascript
+    ```typescript
     range.load("address");
     ```  
     To: 
-    ```javascript
+    ```typescript
     range.load([ "address", "values"]);
     ```
 
 - 1.10.2 After the following line:  
-    ```javascript
+    ```typescript
     console.log("The range address was \"" + range.address + "\".");
     ```  
     Add a call to a separate function in which we will populate the cells:  
-    ```javascript  
+    ```typescript  
     return populateRange(context, range); // Added this line of code  
     ```
 
 - 1.10.3 Now add the following populate function after the run() function:  
-    ```javascript
+    ```typescript
     // Added the following code block
     async function populateRange(context: Excel.RequestContext, range: Excel.Range) {
         console.log("populateRange: range is - ", range.address);
