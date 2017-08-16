@@ -2,20 +2,16 @@
 
 We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
 
-
-We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
-
 This page contains instructions for the Advanced track in the first module in the workshop. The steps for the Basic track are in [Module1.md](Module1.md).
 
 The next module is [Module 2](Module2.md).
 
 # Contents
-* [Setup: 1.1 - 1.5](#setup-11---15)
-* [Run the First Sample: 1.6 - 1.10](#run-the-first-sample-16---110)
-* [Add Code to Populate Values: 1.10.1 - 1.10.4](#add-code-to-populate-values-1101---1104)
-* [Run, Test, and Save: 1.11 - 1.13](#run-test-and-save-111---113)
-
-## Setup: 1.1 - 1.5
+* [Setup](#setup): 1.1 - 1.5
+* [Run the First Sample](#run-the-first-sample): 1.6 - 1.10
+* [Add Code](#add-code): 1.10.1 - 1.10.4
+* [Run, Test, and Save](#run-test-and-save): 1.11 - 1.13
+## Setup
 
 - 1.1 Open the desktop version of Excel.
 
@@ -30,7 +26,7 @@ The next module is [Module 2](Module2.md).
 - 1.5 Click on the **Script Lab** ribbon.  
     ![alt text](Module_1_Script_Lab_ribbon.png "Script Lab ribbon")
 
-## Run the First Sample: 1.6 - 1.10
+## Run the First Sample
 
 - 1.6 In the **Code** pane, select **Samples**.
 
@@ -91,7 +87,7 @@ You can now edit the *Basic API call* sample code and it will save it to your sn
 
 **Note:** If you've already done this module on your own, congratulations! You can skip to step [1.12](#1.12). Otherwise, keep following the next steps.
 
-### Add Code to Populate Values: 1.10.1 - 1.10.4
+### Add Code to Populate Values
 
 - 1.10.1 Change the following line: 
     ```javascript
@@ -134,7 +130,7 @@ You can now edit the *Basic API call* sample code and it will save it to your sn
 
 - 1.10.4 Now run and test the code making sure that it works and shows as the image in [1.10](#1.10).
 
-## Run, Test, and Save: 1.11 - 1.13
+## Run, Test, and Save
 
 - 1.11 Once satisfied, run it to show the populated cells.
 
