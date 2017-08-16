@@ -6,10 +6,10 @@ This page contains instructions for the Basic track in the second module in the 
 The previous module is [Module 1](Module1.md).
 
 # Contents
-* [Prerequisites](#Prerequisites)
-* [Create Project](#Create-Project)
-* [Modify Code](#Modify-Code)
-* [Add Code](#Add-Code)
+* [Prerequisites](#prerequisites)
+* [Create Project](#create-project)
+* [Modify Code](#modify-code)
+* [Add Code](#add-code)
 
 ## Prerequisites
 - Node.js - <https://nodejs.org/>
