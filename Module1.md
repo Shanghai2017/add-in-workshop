@@ -67,7 +67,7 @@ Adding some functionality:
 
 You can now edit the Basic API call (JavaScript) sample code and it will save it to your snippets.
 
-- 1.10 Using the Script Lab code editor, modify the code to populate the cells with increasing numbers starting at 1.  
+- <a name="1.10" />1.10 Using the Script Lab code editor, modify the code to populate the cells with increasing numbers starting at 1.  
     For example, if you select four cells, the output will look like this:  
     ![alt text](Module_1_cells_highlighted_with_data.png "Highlighted cells with values")
 
@@ -124,7 +124,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
     }  
     ```  
 
-- 1.10.4 Now run and test the code making sure that it works and shows as the image in 1.10.
+- 1.10.4 Now run and test the code making sure that it works and shows as the image in [1.10](#1.10).
 
 ## Run, Test, and Save: 1.11 - 1.13
 
