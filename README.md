@@ -1,2 +1,2 @@
 # add-in-workshop
-Lessons and answers for Office Add-in Workshop
+Modules and supporting information for the Office Add-in Workshop.
