@@ -10,7 +10,7 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 ## Setup: 1.1 - 1.5
 
-<font size="larger">1.1 Open the desktop version of Excel.</font>
+1.1 Open the desktop version of Excel.
 
 1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
     ![alt text](Lesson_01_Office_Add-ins_button.png "Office Add-ins button")
