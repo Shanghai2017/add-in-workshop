@@ -65,7 +65,7 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 Adding some functionality:
 
-You can now edit the Basic API call (JavaScript) sample code and it will save it to your snippets.
+You can now edit the *Basic API call (JavaScript)* sample code and it will save it to your snippets.
 
 - <a name="1.10" />1.10 Using the Script Lab code editor, modify the code to populate the cells with increasing numbers starting at 1.  
     For example, if you select four cells, the output will look like this:  
@@ -81,7 +81,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 * For more information about Range objects click on the link below:  
     * [Range Object - JavaScript API for Excel](https://github.com/OfficeDev/office-js-docs/blob/master/reference/excel/range.md)
 
-**Note:** If you've already done this module on your own, congratulations! You can skip to step 1.12. Otherwise, keep following the steps.
+**Note:** If you've already done this module on your own, congratulations! You can skip to step [1.12](#1.12). Otherwise, keep following the next steps.
 
 ### Add Code to Populate Values: 1.10.1 - 1.10.4
 
@@ -130,7 +130,7 @@ You can now edit the Basic API call (JavaScript) sample code and it will save it
 
 - 1.11 Once satisfied, run it to show the populated cells.
 
-- 1.12 Now you have a modified version of the *Basic API call (JavaScript)* sample code in **My Snippets**. Navigate to see that it's there.  
+- <a name="1.12" />1.12 Now you have a modified version of the *Basic API call (JavaScript)* sample code in **My Snippets**. Navigate to see that it's there.  
     * To get **My Snippets**, click on the hamburger menu in the top left corner of the **Code** panel. Then click **My Snippets** at the top. You should see your snippet in the **My snippets on this computer** section.
     * This modified code in **My Snippets** will only remain in the add-in memory until you clear your browser cache.
 
