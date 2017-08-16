@@ -48,7 +48,7 @@ The previous module is [Module 1](Module1.md).
 
 ### Modify Code
 
-* 2.5. In index.html, change the "Run" button text in this section to "Setup". It
+* 2.5. In index.html, change the *Run* button text in this section to *Setup*. It
 should be on about line 53.  
     ```html
             <!-- change id="run" to id="setup" -->
@@ -59,7 +59,7 @@ should be on about line 53.
             </button>
     ```
 
-* 2.6. In app.js, find this line and change all occurences on the line from "run" to "setup":  
+* 2.6. In *app.js*, find the following line of code and change all occurrences of *run* to *setup*.  
     ```javascript
           $('#run').click(run);
     ```  
@@ -68,7 +68,7 @@ should be on about line 53.
           $('#setup').click(setup);
     ```
 
-* 2.7. Also find this line and change the name of the function to "setup":  
+* 2.7. Also find the following line of code and change the name of the function to *setup*:  
     ```javascript
           function run() {
     ```        
@@ -78,7 +78,7 @@ should be on about line 53.
           function setup() {
     ```
 
-* 2.8. Now replace the following stock comment in function setup() from: 
+* 2.8. Now replace the following stock comment in the function named `setup()` from: 
     ```javascript
           /**
            * Insert your Excel code here
@@ -128,9 +128,9 @@ should be on about line 53.
     ```
 
 ## Add Code
-Now that you have the setup code for lesson 2, you can add code to use Excel functions. 
+Now that you have the project set up, you can add code to use Excel functions. 
 
-Add a new button and handler to create a *Grand Total* under the *Total Price* column. For this, use the sum formula.
+Add a new button and handler to create a *Grand Total* under the *Total Price* column. Use the sum formula to perform the calculation.
 
 * 2.09 Add another button with a label of *Grand Total*.
 
@@ -142,7 +142,7 @@ Add a new button and handler to create a *Grand Total* under the *Total Price* c
     - Use the `workbook.functions.sum()` method.
     - Notice that the `sum()` method returns programmatically the value of the sum of the range, which we add to a cell. However, typically, you'd add a formula like this: `=sum(<range>)` into that cell instead of the resulting value.  
     ---
-    Note: if you succeeded in creating the *Grand Total* button and handler, go to step **2.7**, otherwise continue.
+    **Note:** if you succeeded in creating the *Grand Total* button and handler, go to step **2.7**, otherwise continue.
     ---
 
 * 2.11 Let's add the "Grand Total" button so we can total up the prices. In *index.html*, add the following code next to the existing *Setup* button:  
@@ -198,7 +198,7 @@ Add a new button and handler to create a *Grand Total* under the *Total Price* c
           }
     ```
 
-* 2.14. You will be using the range calculation API in Lesson 4, so let's add another value into the *Grand Total* row. This value should total up the *Qty* column but not use the `workbook.functions.sum()` method. Instead, add the `=sum()` formula into the cell for later calculation.  
+* 2.14. You use the range calculation API in Lesson 4, so let's add another value into the *Grand Total* row. This value should total up the *Qty* column but not use the `workbook.functions.sum()` method. Instead, add the `=sum()` formula into the cell for later calculation.  
     This should be the result *Grand Total* table.
 
 * 2.15. After this is successful, add another row with *Tax* (say *B6:E6*) and include that into the *Grand Total* amount.
