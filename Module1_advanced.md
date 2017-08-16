@@ -2,6 +2,13 @@
 
 We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
 
+
+We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/excel/application). For information about the API requirements see [Excel JavaScript API Requirements](https://github.com/OfficeDev/office-js-docs/blob/master/reference/requirement-sets/excel-api-requirement-sets.md).
+
+This page contains instructions for the Advanced track in the first module in the workshop. The steps for the Basic track are in [Module1.md](Module1.md).
+
+The next module is [Module 2](Module2.md).
+
 # Contents
 * [Setup: 1.1 - 1.5](#setup-11---15)
 * [Run the First Sample: 1.6 - 1.10](#run-the-first-sample-16---110)
