@@ -12,6 +12,7 @@ The next module is [Module 2](Module2.md).
 * [Add Code](#add-code): 1.10.1 - 1.10.4
 * [Run, Test, and Save](#run-test-and-save): 1.11 - 1.13
 ## Setup
+Configure the *Script Lab* add-in in Excel.
 
 - 1.1 Open the desktop version of Excel.
 
@@ -27,6 +28,7 @@ The next module is [Module 2](Module2.md).
     ![alt text](Module_1_Script_Lab_ribbon.png "Script Lab ribbon")
 
 ## Run the First Sample
+Use sample code to highlight a range of cells.
 
 - 1.6 In the **Code** pane, select **Samples**.
 
@@ -88,6 +90,7 @@ You can now edit the *Basic API call* sample code and it will save it to your sn
 **Note:** If you've already done this module on your own, congratulations! You can skip to step [1.12](#1.12). Otherwise, keep following the next steps.
 
 ### Add Code
+In this section you will add code to the sample to populate the highlighted range with data.
 
 - 1.10.1 Change the following line: 
     ```javascript
@@ -131,6 +134,7 @@ You can now edit the *Basic API call* sample code and it will save it to your sn
 - 1.10.4 Now run and test the code making sure that it works and shows as the image in [1.10](#1.10).
 
 ## Run, Test, and Save
+Run the modified code, ensure it works, and save your code.
 
 - 1.11 Once satisfied, run it to show the populated cells.
 
