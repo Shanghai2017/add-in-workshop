@@ -25,29 +25,28 @@ The previous module is [Module 1](Module1.md).
 
 * 2.4. While following the steps to generate the add-in code using Yo, use the following options:
 
-        ```
-        ? Would you like to create a new subfolder for your project? Yes                                                
-        ? What do you want to name your add-in? lesson2_code                                                            
-        ? Which Office client application would you like to support? Excel                                              
-        ? Would you like to create a new add-in? Yes, I need to create a new web app and manifest file for my add-in.   
-        ? Would you like to use TypeScript? No                                                                          
-        ? Choose a framework: Jquery                                                                                    
-        For more information and resources on your next steps, we have created a resource.html file in your project.    
+```
+? Would you like to create a new subfolder for your project? Yes                                                
+? What do you want to name your add-in? lesson2_code                                                            
+? Which Office client application would you like to support? Excel                                              
+? Would you like to create a new add-in? Yes, I need to create a new web app and manifest file for my add-in.   
+? Would you like to use TypeScript? No                                                                          
+? Choose a framework: Jquery                                                                                    
+For more information and resources on your next steps, we have created a resource.html file in your project.    
 
-        ? Would you like to open it now while we finish creating your project? No                                       
-        ```
+? Would you like to open it now while we finish creating your project? No                                       
+```
 
-* 2.5 Change the command prompt location to the directory that you just created. Type the following and press enter.
-
-        ```
-        cd lesson2_code
-        ```
+* 2.5 Change the command prompt location to the directory that you just created. Type the following and press enter.  
+    ```
+    cd lesson2_code
+    ```
 
 * 2.6 Open Visual Studio Code in the current directory. Type the following and press enter.
 
-        ```
-        code .
-        ```
+```
+code .
+```
 
 ### Modify Code
 
