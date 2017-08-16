@@ -10,28 +10,28 @@ We will use the [Excel JavaScript API](https://dev.office.com/reference/add-ins/
 
 ## Setup: 1.1 - 1.5
 
-1.1 Open the desktop version of Excel.
+- 1.1 Open the desktop version of Excel.
 
-1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
+- 1.2 Go to **Insert** > **My Add-ins** > **Office Add-ins**.  
     ![alt text](Module_1_Office_Add-ins_button.png "Office Add-ins button")
 
-1.3 Search for *Script Lab*.  
+- 1.3 Search for *Script Lab*.  
     ![alt text](Module_1_Script_Lab_in_store.png "Script Lab add-in in the Office Add-ins Store")
 
-1.4 Click **Add**.
+- 1.4 Click **Add**.
 
-1.5 Click on the **Script Lab** ribbon.  
+- 1.5 Click on the **Script Lab** ribbon.  
     ![alt text](Module_1_Script_Lab_ribbon.png "Script Lab ribbon")
 
 ## Run the First Sample: 1.6 - 1.10
 
-1.6 In the **Code** pane, select **Samples**.
+- 1.6 In the **Code** pane, select **Samples**.
 
-1.7 Select **Basic API call (JavaScript)**.
+- 1.7 Select **Basic API call (JavaScript)**.
 
-1.8 In the **Run** pane, select **Basic API call (JavaScript)**.
+- 1.8 In the **Run** pane, select **Basic API call (JavaScript)**.
 
-1.9 Select a matrix of several cells (see screenshot below) and click the **Run Code** button.
+- 1.9 Select a matrix of several cells (see screenshot below) and click the **Run Code** button.
 * For example, if four cells are selected  
     ![alt text](Module_1_cells_selected.png "Selected cells")  
     Observations:  
