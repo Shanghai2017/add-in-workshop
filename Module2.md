@@ -59,8 +59,8 @@ should be on about line 53.
 * 2.6. In app.js, find this line and change all occurences on the line from "run" to "setup":  
     ```javascript
           $('#run').click(run);
-    ```
-          like this: 
+    ```  
+    like this: 
     ```javascript
           $('#setup').click(setup);
     ```
