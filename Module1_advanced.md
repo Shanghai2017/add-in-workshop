@@ -45,24 +45,27 @@ Use sample code to highlight a range of cells.
     ![alt text](Module_1_cells_highlighted.PNG "Highlighted cells")  
     Review the code in the Code pane.  
     Notice the ```Excel.run()``` invocation  
-    ```javascript
+
+    ```typescript
 
     $("#run").click(run);
 
-    function run() {
-        Excel.run(function (context) {
-            var range = context.workbook.getSelectedRange();
-            range.format.fill.color = "yellow";
-            range.load("address");
-            return context.sync()
-                .then(function() {
-                    console.log("The range address was \"" + range.address + "\".");
-                });
-        })
-            .catch(function(error) {
+    async function run() {
+        try {
+    
+            await Excel.run(async (context) => {
+                var range = context.workbook.getSelectedRange();
+                range.format.fill.color = "yellow";
+                range.load(["address", "values"]);
+                await context.sync()
+                console.log("The range address was \"" + range.address + "\".");
+                await populateRange(context, range);
+            })
+        }
+        catch (error) {
                 OfficeHelpers.UI.notify(error);
                 OfficeHelpers.Utilities.log(error);
-            });
+            }
     }
     ```  
     Note the ```context.sync()``` and ```.then``` pattern. Asynchronous code must always return a Promise.  
@@ -113,22 +116,21 @@ In this section you will add code to the sample to populate the highlighted rang
 - 1.10.3 Now add the following populate function after the run() function:  
     ```javascript
     // Added the following code block
-    function populateRange(context: Excel.RequestContext, range: Excel.Range) {
-        console.log("populateRange: range is - ", range.address);  
-            var newValues = range.values;
-            var counter = 1;  
-            for (var i = 0; i < newValues.length; i++) {  
-                for (var j = 0; j < newValues[i].length; j++) {  
-                    newValues[i][j] = counter++;  
-                }  
-            }  
-            range.values = newValues;  
-
-            return context.sync()
-	    .then(function () {
-			    console.log("finished populating the matrix");
-			    });
-    }  
+    async function populateRange(context: Excel.RequestContext, range: Excel.Range) {
+        console.log("populateRange: range is - ", range.address);
+        var newValues = range.values;
+        var counter = 1;
+        for (var i = 0; i < newValues.length; i++) {
+            for (var j = 0; j < newValues[i].length; j++) {
+                newValues[i][j] = counter++;
+            }
+        }
+        range.values = newValues;
+    
+        await context.sync()
+                console.log("finished populating the matrix");
+    
+    }
     ```  
 
 - 1.10.4 Now run and test the code making sure that it works and shows as the image in [1.10](#1.10).
